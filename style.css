@@ -1,9 +1,10 @@
 *{
     font-size:67%;
     /* margin:0; */
-    background-color: beige;
+    background-color: rgb(255, 255, 207);
 }
 .watch-frame{
+    /* margin-top:15rem; */
     background-image: linear-gradient(darkblue,black);
     position:relative;
     margin: auto;
@@ -13,9 +14,9 @@
     border:2px solid black;
     border-radius: 55px;
 }
-.watch-frame:hover{
-    /* background-image: linear-gradient(white,beige); */
-}
+/* .watch-frame:hover{
+    background-image: linear-gradient(white,beige);
+} */
 .timer{
     background-image: linear-gradient(darkblue,black);
     position:absolute;
@@ -27,13 +28,23 @@
     border-radius: 15px;
     border:2px solid white;
 }
+
+.timer spam{
+    color:white;
+    background-color: transparent;
+    position: absolute;
+    /* top:?rem; */
+    left:4rem;
+    font-size: 4rem;
+}
+
 .btns{
     
     border-radius: 12px;
     background-color: transparent;
     /* background-image: linear-gradient(darkblue,black); */
     position: absolute;
-    top:8rem;
+    top:9.5rem;
     left:.5rem;
 }
 .btns button{
