@@ -54,4 +54,9 @@
 
 .btns button:hover{
     background-color: rgb(20, 228, 159);
+    /* background-color:#002ead; */
+    transition: 0.7s;
+}
+.btns button:active{
+    background-color: red;
 }
