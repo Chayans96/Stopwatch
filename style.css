@@ -4,9 +4,9 @@
     background-color: rgb(255, 255, 255);
 }
 .watch-frame{
-    top:15rem;
     background-image: linear-gradient(darkblue,black);
     position:relative;
+    top:15rem;
     margin: auto;
     font-size: 4rem;
     height:20rem;
